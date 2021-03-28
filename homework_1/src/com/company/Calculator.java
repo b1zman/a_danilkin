@@ -28,10 +28,13 @@ public class Calculator {
             case 3:
                 result = num1 * num2;
                 break;
+            case 4:
+                result = num1 / num2;
+                break;
             default:
                 System.out.println("Неизвестная операция");
         }
-        if (operation >= 1 && operation <= 3) {
+        if (operation >= 1 && operation <= 4) {
             System.out.printf("Результат операции: %d", result);
         }
     }
