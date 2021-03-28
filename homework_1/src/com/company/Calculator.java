@@ -29,7 +29,7 @@ public class Calculator {
                 result = num1 * num2;
                 break;
             case 4:
-                result = num1 * num2;
+                result = num1 / num2;
                 break;
             default:
                 System.out.println("Неизвестная операция");
