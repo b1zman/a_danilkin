@@ -8,9 +8,18 @@ public class Bubble {
                     int temp = mass[j];
                     mass[j] = mass[j+1];
                     mass[j+1] = temp;
+
+
                 }
             }
         }
         return mass;
     }
+    public static  int[] swapPs(int[] mass) {
+        int temp = mass [0];
+        mass [0] = mass [mass.length - 1];
+        mass [mass.length -1] = temp;
+        return mass;
+    }
+
 }
