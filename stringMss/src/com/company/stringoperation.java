@@ -11,8 +11,8 @@ public class stringoperation {
                 System.out.println(str.toUpperCase() + " " + str.length());
             } else {
                 for (String i : stringar) {
-                    String longstr = stringar[stringar.length - 1];
-                    if (i.length() >= longstr.length()) {
+                    String longstr = stringar[stringar.length-1];
+                    if (i.length() > longstr.length()) {
                         longstr = i;
                         System.out.println(longstr + " " + longstr.length());
                     }
